@@ -17,7 +17,7 @@ function Profile(){
 
     useEffect(()=>{
          getpost();
-    },[id]);
+    },[id, profileuser]);
 
     const handlefollow=async(ID)=>{
         try{
