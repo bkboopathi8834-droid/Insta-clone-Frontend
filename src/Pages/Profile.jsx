@@ -16,7 +16,9 @@ function Profile(){
     const [profileuser, setProfileuser] = useState([]);
 
     useEffect(()=>{
-         getpost();
+         if(loguser){
+            getpost();
+         }
     },[id]);
 
     const handlefollow=async(ID)=>{
@@ -60,7 +62,12 @@ function Profile(){
             }
         }   
         catch(error){
-            toast.error(error.response.data.message);
+            if(error.response?.data?.message === "No post"){
+                setPosts([]);
+                return;
+            }
+
+            toast.error(error.response?.data?.message || "something went wrong!");
         }
         finally{
             setLoading(false);
