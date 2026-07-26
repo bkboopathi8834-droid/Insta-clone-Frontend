@@ -19,7 +19,7 @@ function Profile(){
          if(loguser){
             getpost();
          }
-    },[id]);
+    },[id, loguser]);
 
     const handlefollow=async(ID)=>{
         try{
@@ -62,7 +62,7 @@ function Profile(){
             }
         }   
         catch(error){
-            if(error.response?.data?.message === "No post"){
+            if(error.response?.data?.message === "No Posts"){
                 setPosts([]);
                 return;
             }
