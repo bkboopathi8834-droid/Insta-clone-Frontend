@@ -1,0 +1,327 @@
+@media (max-width: 577px){
+    .editprofile-page{
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    overflow-y: auto;
+    padding-top: 1rem;
+}
+.editprofile-page::-webkit-scrollbar{
+    display: none;
+}
+.editprofile-page h1{
+    padding: 10px;
+}
+.photo-div{
+    width: 100%;
+    height: 5.4rem;
+    border-radius: 15px;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* .photo-div input{
+    width: 24rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 10px;
+} */
+.editprofile-page img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.name-div{
+    width: 100%;
+    height: 5.4rem;
+    border-radius: 15px;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.name-div div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.name-div input{
+    padding-left: 10px;
+    width: 14rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.bio-div{
+    width: 100%;
+    height: 5.4rem;
+    border-radius: 15px;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bio-div input{
+    padding-left: 10px;
+    width: 14rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.btn-for button{
+    width: 100%;
+    height: 2rem;
+    border-radius: 15px;
+    background-color: rgb(216, 216, 216);
+    border: 1px solid black;
+    
+}
+ .btn-for button:hover{
+    background-color: rgb(169, 165, 165);
+    cursor: pointer;
+}
+.btn-for {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-for .logout{
+    width: 78%;
+    position: absolute;
+    top: 75%;
+}
+
+.btn-for .back-btn{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+}
+
+
+@media (min-width: 577px) and (max-width: 992px){
+    .editprofile-page{
+    height: 100vh;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    overflow-y: auto;
+    padding-top: 1rem;
+}
+.editprofile-page::-webkit-scrollbar{
+    display: none;
+}
+.editprofile-page h1{
+    padding: 10px;
+}
+.photo-div{
+    width: 100%;
+    height: 7rem;
+    border-radius: 15px;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* .photo-div input{
+    width: 24rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 10px;
+} */
+.editprofile-page img{
+    width: 6.4rem;
+    height: 6.4rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.name-div{
+    width: 100%;
+    height: 7rem;
+    border-radius: 15px;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.name-div div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.name-div input{
+    padding-left: 10px;
+    width: 15rem;
+    height: 1.8rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.bio-div{
+    width: 100%;
+    height: 7rem;
+    border-radius: 15px;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bio-div input{
+    padding-left: 10px;
+    width: 15rem;
+    height: 1.8rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.btn-for button{
+    width: 100%;
+    height: 2rem;
+    border-radius: 15px;
+    background-color: rgb(216, 216, 216);
+    border: 1px solid black;
+    
+}
+ .btn-for button:hover{
+    background-color: rgb(169, 165, 165);
+    cursor: pointer;
+}
+.btn-for {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-for .logout{
+    width: 75%;
+    position: absolute;
+    top: 84%;
+}
+
+.btn-for .back-btn{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+}
+
+
+@media (min-width: 992px){
+    .editprofile-page{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    overflow-y: auto;
+}
+.editprofile-page::-webkit-scrollbar{
+    display: none;
+}
+.editprofile-page h1{
+    padding: 10px;
+}
+.photo-div{
+    width: 55rem;
+    height: 9rem;
+    border-radius: 15px;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* .photo-div input{
+    width: 24rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 10px;
+} */
+.editprofile-page img{
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.name-div{
+    width: 55rem;
+    height: 9rem;
+    border-radius: 15px;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.name-div div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40rem;
+}
+.name-div input{
+    padding-left: 10px;
+    width: 18rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.bio-div{
+    width: 55rem;
+    height: 9rem;
+    border-radius: 15px;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bio-div input{
+    padding-left: 10px;
+    width: 18rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.btn-for button{
+    width: 30rem;
+    height: 3rem;
+    border-radius: 15px;
+    background-color: rgb(216, 216, 216);
+    border: 1px solid black;
+    font-size: 16px;
+}
+ .btn-for button:hover{
+    background-color: rgb(169, 165, 165);
+    cursor: pointer;
+}
+.btn-for {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-for .logout{
+    position: absolute;
+    top: 90%;
+}
+.btn-for{
+    position: relative;
+}
+.btn-for .back-btn{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+}

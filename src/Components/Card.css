@@ -1,0 +1,294 @@
+@media (max-width: 577px){
+.Card-page{
+   display: flex;
+   flex-direction: column;
+   background-color: rgb(241, 241, 241);
+   border-radius: 10px;
+   padding: 8px;
+   max-width: 100%;
+   margin: 0px 12px;
+   overflow: hidden;
+}
+.one-part{
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-radius: 5px;
+}
+.menu .icon-btn{
+    border: none;
+    background: transparent;
+    width: 30px;
+    height: 30px;
+}
+.menu .icon-btn:hover{
+    cursor: pointer;
+    color: rgb(108, 108, 108);
+}
+.popup{
+    position: absolute;
+    top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    right: 12%;
+    width: 80px;
+    height: 50px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+.popup button{
+    width:100%;
+    border:none;
+    background:none;
+    padding:5px;
+    cursor:pointer;
+    
+}
+.popup button:hover{
+    background-color: rgb(217, 216, 216);
+    border-radius: 8px;
+}
+.one-part .just-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile-link {
+    text-decoration: none;
+    color: inherit;
+}
+.profile-link:hover {
+    color: rgb(71, 71, 70);
+}
+.top-page{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.one-part .top-page img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit:cover;
+    object-position: center;
+}
+.post-image-page img{
+    max-width: 100%;
+    border-radius: 10px;
+    object-fit:cover;
+    object-position: center;
+}
+.one-part .caption-page{
+    display: flex;
+    gap: 10px;
+}
+.one-part .icons{
+    font-size: 15px;
+    display: flex;
+    gap: 10px;
+}
+.load-animation img{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+}
+
+@media (min-width:577px) and (max-width:992px){
+    .Card-page{
+   display: flex;
+   flex-direction: column;
+   background-color: rgb(241, 241, 241);
+   border-radius: 10px;
+   padding: 8px;
+}
+.one-part{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 5px;
+}
+.menu .icon-btn{
+    border: none;
+    background: transparent;
+    width: 50px;
+    height: 30px;
+}
+.menu .icon-btn:hover{
+    cursor: pointer;
+    color: rgb(108, 108, 108);
+}
+.popup{
+    position: absolute;
+    top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    right: 23%;
+    width: 120px;
+    height: 80px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+.popup button{
+    width:100%;
+    border:none;
+    background:none;
+    padding:10px;
+    cursor:pointer;
+    
+}
+.popup button:hover{
+    background-color: rgb(217, 216, 216);
+    border-radius: 8px;
+}
+.one-part .just-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile-link {
+    text-decoration: none;
+    color: inherit;
+}
+.profile-link:hover {
+    color: rgb(71, 71, 70);
+}
+.top-page{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.one-part .top-page img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    object-fit:cover;
+    object-position: center;
+}
+.post-image-page img{
+    width: 28rem;
+    height: 30rem;
+    border-radius: 10px;
+    object-fit:cover;
+    object-position: center;
+}
+.one-part .caption-page{
+    display: flex;
+    gap: 10px;
+}
+.one-part .icons{
+    font-size: 20px;
+    display: flex;
+    gap: 15px;
+}
+.load-animation img{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
+}
+@media (min-width:992px){
+    .Card-page{
+   display: flex;
+   flex-direction: column;
+   background-color: rgb(241, 241, 241);
+   border-radius: 10px;
+   padding: 8px;
+}
+.one-part{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 5px;
+}
+.menu .icon-btn{
+    border: none;
+    background: transparent;
+    width: 50px;
+    height: 30px;
+}
+.menu .icon-btn:hover{
+    cursor: pointer;
+    color: rgb(108, 108, 108);
+}
+.popup{
+    position: absolute;
+    top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    right: 23%;
+    width: 120px;
+    height: 80px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+.popup button{
+    width:100%;
+    border:none;
+    background:none;
+    padding:10px;
+    cursor:pointer;
+    
+}
+.popup button:hover{
+    background-color: rgb(217, 216, 216);
+    border-radius: 8px;
+}
+.one-part .just-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile-link {
+    text-decoration: none;
+    color: inherit;
+}
+.profile-link:hover {
+    color: rgb(71, 71, 70);
+}
+.top-page{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.one-part .top-page img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    object-fit:cover;
+    object-position: center;
+}
+.post-image-page img{
+    width: 28rem;
+    height: 30rem;
+    border-radius: 10px;
+    object-fit:cover;
+    object-position: center;
+}
+.one-part .caption-page{
+    display: flex;
+    gap: 10px;
+}
+.one-part .icons{
+    font-size: 20px;
+    display: flex;
+    gap: 15px;
+}
+.load-animation img{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
+}

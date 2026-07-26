@@ -1,0 +1,15 @@
+.main-page{
+    width: 100%;
+    display: flex;
+}
+
+.outlet-page{
+    flex: 1;
+    min-width: 0;
+    overflow-y: auto;
+    height: 100vh;
+    overflow-y: auto;
+}
+.outlet-page::-webkit-scrollbar{
+    display: none;
+}

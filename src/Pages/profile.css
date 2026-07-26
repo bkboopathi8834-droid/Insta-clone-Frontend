@@ -1,0 +1,250 @@
+
+
+
+@media (max-width: 576px){
+    .profile-page{    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    gap: 4px;
+
+    }
+    .profile-part{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    }
+    .profile-part img{
+    max-width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    }
+    .profile-part .top-part{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    }
+    .follow-part{
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+    width: 100%;
+    }
+    .btn-part{
+    width: 100%;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+    }
+    .btn-part button{
+    width: 100%;
+    height: 2rem;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: rgb(200, 200, 200);
+    border: none;
+    }
+    .btn-part button:hover{
+    cursor: pointer;
+    background-color: rgb(139, 137, 137);
+    }
+    .post-part img{
+    width: 100%;
+    aspect-ratio: 1/1.5;
+    object-fit:cover;
+    object-position: center;
+    display: block;
+    }
+    .post-part .posts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    padding: 4px;
+    }
+    .load-animation img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-top: 50px;
+    }
+    .loading-animation {
+    display: flex;
+    justify-content: center;
+    margin-top: 50vh;
+    }
+    .loading-animation img{
+    width: 2rem;
+    height: 2rem;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 992px){
+    .profile-page{    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    gap: 8px;
+
+    }
+    .profile-part{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    }
+    .profile-part img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    }
+    .profile-part .top-part{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+    .follow-part{
+    display: flex;
+    gap: 43px;
+    margin-top: 10px;
+    width: 100%;
+    }
+    .btn-part{
+    width: 100%;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+    }
+    .btn-part button{
+    width: 100%;
+    height: 2.4rem;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: rgb(200, 200, 200);
+    border: none;
+    }
+    .btn-part button:hover{
+    cursor: pointer;
+    background-color: rgb(139, 137, 137);
+    }
+    .post-part img{
+    width: 100%;
+    aspect-ratio: 1/1.5;
+    object-fit:cover;
+    object-position: center;
+    display: block;
+    }
+    .post-part .posts{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    }
+    .load-animation img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-top: 50px;
+    }
+    .loading-animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .loading-animation img{
+    width: 2rem;
+    height: 2rem;
+    }               
+}
+
+
+@media (min-width: 992px){
+    .profile-page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    background-color: rgb(255, 255, 255);
+    gap: 30px;
+
+    }
+    .profile-part{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    }
+    .profile-part img{
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    }
+    .profile-part .top-part{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    }
+    .follow-part{
+    display: flex;
+    gap: 2rem;
+    margin-top: 10px;
+    }
+    .btn-part button{
+    width: 19rem;
+    height: 3rem;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: rgb(200, 200, 200);
+    border: none;
+    font-size: 18px;
+    }
+    .btn-part button:hover{
+    cursor: pointer;
+    background-color: rgb(139, 137, 137);
+    }
+    .post-part img{
+    width: 15rem;
+    height: 20rem;
+    object-fit:cover;
+    object-position: center;
+    }
+    .post-part .posts{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+    }
+    .load-animation img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-top: 50px;
+    }
+    .loading-animation {
+    display: flex;
+    justify-content: center;
+    margin-top: 50vh;
+    }
+    .loading-animation img{
+    width: 4rem;
+    height: 4rem;
+    }
+}
